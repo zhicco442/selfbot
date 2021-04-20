@@ -162,7 +162,7 @@ hazn.on('credentials-updated', () => {
                 if(mids.length > 0){
                     text = normalizeMention(from, text, mids)
                 } 
-                const fn = Date.now() / 999999999999;
+                const fn = Date.now() / 1000;
                 const filename = fn.toString()
                 let mime = ""
                 var download = function (uri, filename, callback) {
