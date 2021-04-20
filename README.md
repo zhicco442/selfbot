@@ -1,7 +1,7 @@
 # simple-selfbot
 
 <div align="center">
-<img src="https://i.postimg.cc/QtrMh95f/png-clipart-anonymous-logo-security-hacker-graphics-anonymous-white-logo-1.png" alt="SELF" width="300" />
+<img src="https://i.postimg.cc/9FxKh6TS/png-clipart-anonymous-logo-security-hacker-graphics-anonymous-white-logo-removebg-preview.png" alt="SELF" width="300" />
 
 # SELF
 
@@ -52,4 +52,4 @@
 * Di gunain bot nya !!
 
 ### CHAT SAYA JIKA ADA YANG INGIN DI TANYAKAN
-wa.me/+6281539336834
+wa.me/+6281212814187
