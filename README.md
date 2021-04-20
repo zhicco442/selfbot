@@ -50,3 +50,6 @@
 * Soal nya self nya ngedeketin 
 * Owner biar bisa 
 * Di gunain bot nya !!
+
+### CHAT SAYA JIKA ADA YANG INGIN DI TANYAKAN
+wa.me/+6281539336834
