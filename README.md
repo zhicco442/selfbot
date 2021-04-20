@@ -13,17 +13,17 @@
   <a href="https://github.com/zhicco442-ini-bre"><img title="Author" src="https://img.shields.io/badge/Author-ZHICCO-red.svg?style=for-the-badge&logo=github" /></a>
 </p>
 
-## Termux 
-```bash
+## Termux  <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Mario_Hello_Big.gif" width="29px">
+ ```bash
 > pkg install nodejs -y && pkg install git && pkg install ffampeg
-> git clone https://github.com/hazn-ini-bre/simple-selfbot
+> git clone https://github.com/zhicco442/simple-selfbot
 > cd simple-selfbot
 > npm i 
 > node index
 ```
 ## Pc 
 ```bash
-> git clone https://github.com/hazn-ini-bre/simple-selfbot
+> git clone https://github.com/zicco442/simple-selfbot
 > cd simple-selfbot
 > npm i
 > node index
@@ -42,14 +42,6 @@
 # TQ BRE
 * [BALIEYS](https://github.com/adiwajshing/Baileys)
 * [MHANKBARBAR](https://github.com/MhankBarBar)
-
-# NOTE 
-* Jangan lupa ganti nomor owner nya 
-* Cari aja "ownerNumber" di index.js
-* Abis itu ganti bre
-* Soal nya self nya ngedeketin 
-* Owner biar bisa 
-* Di gunain bot nya !!
 
 ### CHAT SAYA JIKA ADA YANG INGIN DI TANYAKAN
 wa.me/+6281212814187
