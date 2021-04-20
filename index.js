@@ -52,7 +52,7 @@ const {
 } = require('./lib/config.json')
 
 prefix = 'z'
-fake = 'HAZN SELF'
+fake = 'zhicco SELF'
 let gambar = "" || fs.readFileSync('./media/gambar/biasa.png')
 self = true
 blocked = []
@@ -113,8 +113,8 @@ hazn.on('credentials-updated', () => {
 			const args = body.trim().split(/ +/).slice(1)
 			const isCmd = body.startsWith(prefix)
            
-            const botNumber = hazn.user.jid
-			const ownerNumber = ['6281539336834@s.whatsapp.net']
+            const botNumber = zhicco.user.jid
+			const ownerNumber = ['6281212814187@s.whatsapp.net']
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			pushname = hazn.contacts[sender] != undefined ? hazn.contacts[sender].vname || hazn.contacts[sender].notify : undefined
@@ -140,7 +140,7 @@ hazn.on('credentials-updated', () => {
 				(id == null || id == undefined || id == false) ? hazn.sendMessage(from, teks.trim(), extendedText, {contextInfo: {"mentionedJid": memberr}}) : hazn.sendMessage(from, teks.trim(), extendedText, {quoted: mek, contextInfo: {"mentionedJid": memberr}})
 			}  
 			const sendWebp = async(from, url) => {
-                var names = Date.now() / 10000;
+                var names = Date.now() / 9999999999999;
                 var download = function (uri, filename, callback) {
                     request.head(uri, function (err, res, body) {
                         request(uri).pipe(fs.createWriteStream(filename)).on('close', callback);
@@ -162,7 +162,7 @@ hazn.on('credentials-updated', () => {
                 if(mids.length > 0){
                     text = normalizeMention(from, text, mids)
                 } 
-                const fn = Date.now() / 10000;
+                const fn = Date.now() / 999999999999;
                 const filename = fn.toString()
                 let mime = ""
                 var download = function (uri, filename, callback) {
