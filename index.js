@@ -52,7 +52,7 @@ const {
 } = require('./lib/config.json')
 
 prefix = 'z'
-fake = 'HAZN SELF'
+fake = 'zhicco SELF'
 let gambar = "" || fs.readFileSync('./media/gambar/biasa.png')
 self = true
 blocked = []
@@ -84,7 +84,7 @@ hazn.on('credentials-updated', () => {
 		calling = JSON.parse(JSON.stringify(json))
 		call = calling[1].from
 		setTimeout(function(){
-			hazn.sendMessage(call, 'Maaf, saya tidak bisa menerima panggilan. nelfon = block!.\nJika ingin membuka block harap chat Owner!\nhttps//wa.me/+6281539336834', MessageType.text)
+			hazn.sendMessage(call, 'Maaf, saya tidak bisa menerima panggilan. nelfon = block!.\nJika ingin membuka block harap chat Owner!\nhttps//wa.me/+6281212814187', MessageType.text)
 			.then(() => hazn.blockUser(call, "add"))
 			}, 100);
 		})
@@ -114,7 +114,7 @@ hazn.on('credentials-updated', () => {
 			const isCmd = body.startsWith(prefix)
            
             const botNumber = hazn.user.jid
-			const ownerNumber = ['6281539336834@s.whatsapp.net']
+			const ownerNumber = ['6281212814187@s.whatsapp.net']
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			pushname = hazn.contacts[sender] != undefined ? hazn.contacts[sender].vname || hazn.contacts[sender].notify : undefined
@@ -140,7 +140,7 @@ hazn.on('credentials-updated', () => {
 				(id == null || id == undefined || id == false) ? hazn.sendMessage(from, teks.trim(), extendedText, {contextInfo: {"mentionedJid": memberr}}) : hazn.sendMessage(from, teks.trim(), extendedText, {quoted: mek, contextInfo: {"mentionedJid": memberr}})
 			}  
 			const sendWebp = async(from, url) => {
-                var names = Date.now() / 10000;
+                var names = Date.now() / 9999999999999999;
                 var download = function (uri, filename, callback) {
                     request.head(uri, function (err, res, body) {
                         request(uri).pipe(fs.createWriteStream(filename)).on('close', callback);
@@ -262,7 +262,7 @@ ${p}➸ ${prefix}sticker <reply media>${p}
 ${p}➸ ${prefix}topdf <reply img>${p}
 
 ${p}「THANK TOO」${p}
-${p}✔ Radya- My Friends${p}
+${p}✔ adit- My Friends${p}
 ${p}✔ M HADI - My Lord${p}
 ${p}✔ BRYAN- My Friends${p}
 ${p}✔ FADHIL - My Friends${p}
