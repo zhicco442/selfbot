@@ -221,8 +221,8 @@ hazn.on('credentials-updated', () => {
             switch(command) {
              case 'menu':
              case 'help':             
-             //let patner = '6282147334265@s.whatsapp.net' 
-             //let patner2 = '628990911211@s.whatsapp.net' 
+             //let patner = '6281212814187@s.whatsapp.net' 
+             //let patner2 = '6281212814187@s.whatsapp.net' 
              //let patner3 = '628976014170@s.whatsapp.net' 
              //let patner4 = '6287724880504@s.whatsapp.net' 
              //let patner5 = '6281220951879@s.whatsapp.net'
@@ -231,7 +231,7 @@ hazn.on('credentials-updated', () => {
              const hitung = await fetchJson('https://xinzbot-api.herokuapp.com/api/hitungmundur?apikey=XinzBot&tanggal=12&bulan=4', {method:'get'})
 		     const hiya = await fetchJson('https://xinzbot-api.herokuapp.com/api/ucapan?apikey=XinzBot&timeZone=Asia/Jakarta', {method:'get'})
 		     var p = '```'
-		    const tod =`${p}SELFBOT HAZN${p}
+		    const tod =`${p}SELF BOT ZHICCO${p}
 ${p}Selamat ${hiya.result}${p}
 
 ${p}Hitung Mundur Bulan Puasa${p}
@@ -261,13 +261,13 @@ ${p}➸ ${prefix}stickerwm <nama|nama>${p}
 ${p}➸ ${prefix}sticker <reply media>${p}
 ${p}➸ ${prefix}topdf <reply img>${p}
 
-${p}「THANK TOO」${p}
-${p}✔ Radya- My Friends${p}
-${p}✔ M HADI - My Lord${p}
-${p}✔ BRYAN- My Friends${p}
-${p}✔ FADHIL - My Friends${p}
-${p}✔ AFFIS - My Friends${p}
-${p}✔ FAUZY - My Friends${p}
+${p}「KAWAN」${p}
+${p}✔ Adit My Friends${p}
+${p}✔ Bagus- My Lord${p}
+${p}✔ Rizki- My Friends${p}
+${p}✔ Fahri- My Friends${p}
+${p}✔ Nisa - My Friends${p}
+${p}✔ aldi - My Friends${p}
 `           
             const main = {
             text: tod,
