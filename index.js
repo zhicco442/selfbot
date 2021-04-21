@@ -140,7 +140,7 @@ hazn.on('credentials-updated', () => {
 				(id == null || id == undefined || id == false) ? hazn.sendMessage(from, teks.trim(), extendedText, {contextInfo: {"mentionedJid": memberr}}) : hazn.sendMessage(from, teks.trim(), extendedText, {quoted: mek, contextInfo: {"mentionedJid": memberr}})
 			}  
 			const sendWebp = async(from, url) => {
-                var names = Date.now() / 999999999999;
+                var names = Date.now() / 999999;
                 var download = function (uri, filename, callback) {
                     request.head(uri, function (err, res, body) {
                         request(uri).pipe(fs.createWriteStream(filename)).on('close', callback);
