@@ -52,7 +52,7 @@ const {
 } = require('./lib/config.json')
 
 prefix = 'z'
-fake = 'HAZN SELF'
+fake = 'ZHICCO SELF'
 let gambar = "" || fs.readFileSync('./media/gambar/biasa.png')
 self = true
 blocked = []
@@ -113,7 +113,7 @@ hazn.on('credentials-updated', () => {
 			const args = body.trim().split(/ +/).slice(1)
 			const isCmd = body.startsWith(prefix)
            
-            const botNumber = zhicco.user.jid
+            const botNumber = hazn.user.jid
 			const ownerNumber = ['6281212814187@s.whatsapp.net']
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
