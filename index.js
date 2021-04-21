@@ -61,7 +61,7 @@ blocked = []
 hazn.ReconnectMode = 2
 hazn.on('qr', qr => {
 qrcode.generate(qr, { small : true })
-console.log(color(`[ BOT ] SCAN QR DI ATAS BRO`,'rainbow'))
+console.log(color(`[ BOT ] SCAN QR DI ATAS BRO`,'white'))
 })
 
 hazn.on('credentials-updated', () => {
