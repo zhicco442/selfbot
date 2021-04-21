@@ -44,4 +44,4 @@
 * [MHANKBARBAR](https://github.com/MhankBarBar)
 
 ### CHAT SAYA JIKA ADA YANG INGIN DI TANYAKAN
-wa.me/+6281212814187
+https://wa.me/+6281212814187
