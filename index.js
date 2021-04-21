@@ -52,7 +52,7 @@ const {
 } = require('./lib/config.json')
 
 prefix = 'z'
-fake = 'zhicco SELF'
+fake = 'HAZN SELF'
 let gambar = "" || fs.readFileSync('./media/gambar/biasa.png')
 self = true
 blocked = []
@@ -221,8 +221,8 @@ hazn.on('credentials-updated', () => {
             switch(command) {
              case 'menu':
              case 'help':             
-             //let patner = '6281212814187@s.whatsapp.net' 
-             //let patner2 = '6281212814187@s.whatsapp.net' 
+             //let patner = '6282147334265@s.whatsapp.net' 
+             //let patner2 = '628990911211@s.whatsapp.net' 
              //let patner3 = '628976014170@s.whatsapp.net' 
              //let patner4 = '6287724880504@s.whatsapp.net' 
              //let patner5 = '6281220951879@s.whatsapp.net'
@@ -675,7 +675,7 @@ ${p}✔ aldi - My Friends${p}
           }
           break 
           case 'ytmp4': 
-          if (args === 0) return reply('url nya mana um?')
+          if (args === 0) return reply('url nya mana?')
           reply(mess.wait)
           try {
           auh = args.join('')
