@@ -18,7 +18,7 @@ const {
     waChatKey,
     mentionedJid,
     processTime
-} = require("@adiwajshing/zhicco")
+} = require("@adiwajshing/baileys")
 const ffmpeg = require('fluent-ffmpeg')
 const axios = require('axios')
 const { exec } = require('child_process')
