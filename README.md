@@ -17,14 +17,14 @@
  ```bash
 > pkg install nodejs -y && pkg install git && pkg install ffampeg
 > git clone https://github.com/zhicco442/simple-selfbot
-> cd simple-selfbot
+> cd selfbot
 > npm i 
 > node index
 ```
 ## Pc 
 ```bash
 > git clone https://github.com/zicco442/simple-selfbot
-> cd simple-selfbot
+> cd selfbot
 > npm i
 > node index
 ```
